@@ -1,0 +1,87 @@
+/* General Styles */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #f0f0f0; /* Light background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333; /* Darker text color */
+}
+
+/* Form Styles */
+.form {
+  background-color: white;
+  padding: 50px;
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 6px;
+  width: 280px; /* Slightly narrower */
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Input Container Styles */
+.input-container {
+  margin-bottom: 12px; /* Reduced margin */
+}
+
+/* Label Styles */
+.label {
+  font-weight: 500; /* Slightly lighter */
+  display: block;
+  margin-bottom: 4px; /* Less space */
+  color: #555; /* Softer text color */
+}
+
+/* Input Field Styles */
+.input {
+  width: 100%; /* Full width */
+  padding: 8px;
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none; /* Removes default outline */
+}
+
+.input:focus {
+  border-color: #007bff; /* Subtle focus effect */
+}
+
+/* Warning Message Styles */
+.warning-message {
+  color: #e63946; /* Softer red */
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Submit Button Styles */
+.submit-button {
+  background-color: #007bff; /* Subtle blue */
+  color: white;
+  border: none;
+  padding: 8px 0; /* Less padding */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.2s; /* Smooth transition */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Success Message Styles */
+.success-message {
+  color: #4caf50; /* Softer green */
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
